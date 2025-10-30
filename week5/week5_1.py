@@ -1,7 +1,7 @@
 # 讓使用者輸入月份數字
 num = int(input("請輸入月份數字 (1~12)："))
 
-# 使用 match-case 判斷月份
+# 使用 match-case 判斷月份-把 num 的值和每個 case 比對
 match num:
     case 1: month = "January"
     case 2: month = "February"
