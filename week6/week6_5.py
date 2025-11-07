@@ -1,7 +1,4 @@
-# 費波那契數列 (for 迴圈)
-n = int(input("請輸入要產生幾項："))
+shopping_list = ["milk", "bread", "eggs"]   # 建立一個清單，裡面存放三個要買的東西
 
-a, b = 0, 1  # 前兩項
-for i in range(n):
-    print(b, end=" ")
-    a, b = b, a + b
+for item in shopping_list:                  # 使用 for 迴圈，依序取出清單中的每個項目
+    print("我要買:", item)                   # 每次取出一個項目，就印出「我要買:」加上該項目
